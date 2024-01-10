@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Bespoke Stencil;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.wapper{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20, 12, 12);
+    position: relative;
+}
+.elem{
+    height: 120px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.elem h1{
+    font-size: 6vw;
+}
+.elem img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position:center ;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all linear 0.1s;
+
+}
